@@ -1,0 +1,77 @@
+body {
+    background-color:#333445 ;
+}
+.header {
+    display: flex;
+    align-items: center;
+    color: white ;
+    font-size: 18px;
+    font-family: 'Work Sans Light', sans-serif;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+nav {
+    position: fixed;
+    padding-top: 10px;
+    left: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+}
+
+a:hover {
+    color:#FFBA19;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+#parrafo1 {
+    font-size: 64px;
+    font-family: 'Montserrat regular', sans-serif;
+    color: #beb7c9;
+}
+#titulo {
+    font-size: 84px;
+    font-family: 'Montserrat bold', sans-serif;
+}
+
+.inicio {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.portfolio {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.skills {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#skills {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.referencias {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
