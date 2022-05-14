@@ -1,77 +1,123 @@
 body {
-    background-color:#333445 ;
+  background-color: #343443;
 }
+
+/*Esta seccion abarca lo que es el header y el nav*/
+
 .header {
-    display: flex;
-    align-items: center;
-    color: white ;
-    font-size: 18px;
-    font-family: 'Work Sans Light', sans-serif;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 header {
-    display: flex;
-    min-height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
+  display: flex;
+  min-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
 }
 
 nav {
-    position: fixed;
-    padding-top: 10px;
-    left: 500px;
+  position: fixed;
+  padding-top: 10px;
+  left: 500px;
+  font-size: 18px;
+  font-family: "Work Sans Light", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    padding-left: 60px;
+  text-decoration: none;
+  color: white;
+  padding-left: 60px;
 }
 
 a:hover {
-    color:#FFBA19;
+  color: #ffba19;
 }
 
 @media (max-width: 700px) {
-    header {
-        flex-direction: column;
-    }
-    nav {
-        padding: 10px 0px;
-    }
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
+
+/*Aquie termina la seccion del header y el nav*/
+
+#nombreerick {
+    position: absolute;
+    left: 150px;
+    top: 180px;
+
 }
 
 #parrafo1 {
-    font-size: 64px;
-    font-family: 'Montserrat regular', sans-serif;
-    color: #beb7c9;
+  font-size: 64px;
+  font-family: "Montserrat regular", sans-serif;
+  color: #beb7c9;
 }
+
+#parrafo2 {
+    position: absolute;
+    top: 480px;
+    left: 150px;
+}
+
+#parrafo3 {
+    position: absolute;
+    left: 1350px;
+    top: 210px;
+}
+
 #titulo {
-    font-size: 84px;
-    font-family: 'Montserrat bold', sans-serif;
+  font-size: 84px;
+  font-family: "Montserrat bold", sans-serif;
 }
 
 .inicio {
-    color: white;
-    font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-family: "Work Sans", sans-serif;
 }
 
 .portfolio {
-    color: white;
-    font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  position: absolute;
+  top: 700px;
+  left: 150px;
 }
 
 .skills {
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-}
-
-#skills {
-    font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  position: absolute;
+  top: 1280px;
+  left: 150px;
 }
 
 .referencias {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  position: absolute;   
+  top: 1580px;
+  left: 150px;
+}
+
+.contacto {
     color: white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.footer {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 150px;
 }
